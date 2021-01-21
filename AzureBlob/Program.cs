@@ -14,6 +14,7 @@ namespace AzureBlob
         
         static void Main(string[] args)
         {
+
             try
             {
                 BlobServiceClient blobServiceClient = new BlobServiceClient(connString);
